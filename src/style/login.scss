@@ -1,0 +1,100 @@
+// Define your color palette
+$primary-color: #6a1b9a; // A shade of purple for primary elements
+$secondary-color: #ab47bc; // A lighter shade of purple for secondary elements
+$background-color: #f3e5f5; // A very light purple for background elements
+$text-color: #4a148c; // A dark purple for text
+$link-color: #ab47bc; // Light purple for links
+
+// General body styling
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1071%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1072%26quot%3b)'%3e%3c/rect%3e%3cpath d='M-281.88 923.98 a340.39 340.39 0 1 0 680.78 0 a340.39 340.39 0 1 0 -680.78 0z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1430.12 338.7 a232.26 232.26 0 1 0 464.52 0 a232.26 232.26 0 1 0 -464.52 0z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1558.4409615984202 187.90893005734455L1610.9279834921617 332.11583752481965 1800.9948337465037 181.2818509504699z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M627.896527473535 486.39986220923885L611.931844064173 714.7054715405909 840.2374533955251 730.6701549499529 856.2021368048871 502.36454561860086z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M669.3501651024644 135.21304057850608L518.6063884956363-44.436396753900254 489.70072777005805 285.9568171853342z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M628.862058527421 892.7352708014683L498.84883092910206 636.9676486762935 358.5980559270755 844.8979734979605z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M406.63 233.32 a258.71 258.71 0 1 0 517.42 0 a258.71 258.71 0 1 0 -517.42 0z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1348.41 768.34 a345.41 345.41 0 1 0 690.82 0 a345.41 345.41 0 1 0 -690.82 0z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M2059.368%2c1323.501C2145.683%2c1324.23%2c2225.013%2c1280.499%2c2271.427%2c1207.721C2321.912%2c1128.56%2c2343.355%2c1029.649%2c2299.823%2c946.462C2253.398%2c857.746%2c2159.421%2c806.388%2c2059.368%2c802.484C1951.595%2c798.278%2c1833.256%2c830.358%2c1784.051%2c926.335C1737.373%2c1017.383%2c1795.13%2c1120.105%2c1853.42%2c1204.193C1901.864%2c1274.077%2c1974.338%2c1322.783%2c2059.368%2c1323.501' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1103.76 209.18 a204.14 204.14 0 1 0 408.28 0 a204.14 204.14 0 1 0 -408.28 0z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1325.5468491565964 788.7006140234015L1392.4480738504767 473.9550979675885 1077.7025577946636 407.0538732737082 1010.8013331007834 721.7993893295212z' fill='rgba(101%2c 46%2c 163%2c 0.74)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1071'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='10.94%25' y1='-19.44%25' x2='89.06%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1072'%3e%3cstop stop-color='rgba(189%2c 192%2c 216%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(183%2c 129%2c 243%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  color: $text-color;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+// Utility classes for flexbox centering
+.flex-center-both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+// Styling for the card component
+.card {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: $primary-color;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+// Overriding FirebaseUI styles with increased specificity
+#firebaseui-auth-container {
+  .firebaseui-card-header {
+    background-color: $primary-color;
+  }
+
+  .firebaseui-button {
+    background-color: $secondary-color;
+    color: white;
+    &:hover {
+      background-color: darken($secondary-color, 5%);
+    }
+  }
+
+  .firebaseui-idp-button {
+    // If you want to change the sign-in buttons, you need to override each one specifically
+    // For Google button
+    &.firebaseui-idp-google {
+      background-color: $secondary-color;
+      &:hover {
+        background-color: darken($secondary-color, 5%);
+      }
+    }
+
+    // For email button
+    &.firebaseui-idp-password {
+      background-color: $primary-color;
+      &:hover {
+        background-color: darken($primary-color, 5%);
+      }
+    }
+  }
+
+  .firebaseui-idp-text {
+    color: $text-color;
+  }
+
+  // Customize other FirebaseUI elements as needed
+}
+
+// Link styling
+a {
+  color: $link-color;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Terms of Service and Privacy Policy styling
+.tos-privacy {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: $text-color;
+}

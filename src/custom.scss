@@ -1,0 +1,14 @@
+// src/custom.scss
+$theme-colors: (
+        "primary": #652ea3,   // Used for primary buttons, links, etc.
+        "secondary": #b781f3, // Used for secondary elements
+        "info": #bdc0d8,      // Informational color
+        "light": #d9d9d9,     // Light color, often for backgrounds or borders
+        "white": #ffffff      // White color, can be used for text or backgrounds
+);
+
+
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
